@@ -7,6 +7,6 @@
   },
   "scripts": {
     "start" : "cd frontend &&  yarn start",
-    "heroku-postbuild": "cd front-end && yarn --production=false && yarn run build"
+    "heroku-postbuild": "cd frontend && yarn --production=false && yarn run build"
   }
 }
